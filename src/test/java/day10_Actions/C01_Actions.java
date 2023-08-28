@@ -23,7 +23,7 @@ public class C01_Actions extends TestBase {
 
         WebElement kutu=driver.findElement(By.id("hot-spot"));
         Actions actions=new Actions(driver);
-        actions.contextClick(kutu).perform();//-->locate ettigimiz web elemente sag click yyapar
+        actions.contextClick(kutu).perform();//-->locate ettigimiz web elemente sag click yapar
         //kullandigimiz action'i işleme alması icin perform() methodunu kullanmamız gerekiyor.
 
 

@@ -14,10 +14,10 @@ public class C05_ScreenShot extends TestBase {
     public void test01() throws IOException {
 
         /*
-Bir sayfanın ekran görüntüsünü almak istersek;
+    Bir sayfanın ekran görüntüsünü almak istersek;
     1-Almak istediğimiz ekran görüntüsünü kaydetmek istediğimiz yolu belirleriz
     2-TakeScreenShot arayüsünden obje oluşturup bunu driver'a eşitleriz
-    TakeScreenShot ts =(TakeScreenShot) driver;
+    TakesScreenShot ts =(TakeScreenShot) driver;
     3-FileUtils class'ından copyFile() methoduna parametre olarak oluşturmuş olduğumuz ts objesi ile
     getScreenShotAs() methonu kullanarak getScreenShotAs() methoduna da parametre olarak OutPutType.FILE
     seçerek bunu yeni bir dosyaya kaydetmesi için new File() diyerek almış olduğumuz dosyanın yolunu belirtiriz.
