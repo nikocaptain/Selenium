@@ -47,4 +47,17 @@ public class C03_Excel {
         */
 
     }
+
+    @Test
+    public void Test02() throws IOException {
+        //Pratik çözüm
+        //1. satir 1. sutundaki veriyi yazdiriniz.
+
+        FileInputStream fis=new FileInputStream("src/test/java/resources/Capitals.xlsx");
+
+        Workbook workbook=WorkbookFactory.create(fis);
+
+        System.out.println(workbook.getSheet("Sheet1").getRow(0).getCell(0));//COUNTRY
+
+    }
 }
