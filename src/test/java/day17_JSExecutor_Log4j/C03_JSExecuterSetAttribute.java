@@ -1,4 +1,4 @@
-package day17_JSExecutor;
+package day17_JSExecutor_Log4j;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
